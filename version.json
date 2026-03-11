@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.2/AutoReup_v1.0.2.zip",
+  "version": "1.0.3",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.3/AutoReup_v1.0.3.zip",
   "checksum_sha256": "",
-  "changelog": "- Cap nhat khong bat buoc: nguoi dung co the chon cap nhat hoac bo qua\n- Them nut De sau trong dialog cap nhat",
+  "changelog": "- Cap nhat khong bat buoc: nguoi dung co the chon cap nhat hoac bo qua\n- Them nut De sau trong dialog cap nhat\n- Fix exe 32-bit: rebuild 64-bit\n- Fix CDN cache khi kiem tra ban moi",
   "release_date": "2026-03-11"
 }
