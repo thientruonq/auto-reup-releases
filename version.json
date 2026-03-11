@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.5/AutoReup_v1.0.5.zip",
+  "version": "1.0.6",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.6/AutoReup_v1.0.6.zip",
   "checksum_sha256": "",
-  "changelog": "- Fix updater: ho tro giai nen zip va thay the toan bo thu muc app\n- Fix CDN cache va BOM issue\n- Cap nhat tuy chon (khong bat buoc)",
-  "release_date": "2025-07-14"
+  "changelog": "- Test update flow v1.0.5 -> v1.0.6",
+  "release_date": "2026-03-11"
 }
