@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.1/AutoReup_v1.0.1.zip",
   "checksum_sha256": "",
-  "changelog": "- Hiển thị tên tài khoản và trạng thái license trên app\n- Cập nhật bắt buộc khi có phiên bản mới\n- Thêm nút Đăng xuất",
+  "changelog": "Test thông báo cập nhật tự động.",
   "release_date": "2026-03-11"
 }
