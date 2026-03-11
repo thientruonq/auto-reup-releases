@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.4/AutoReup_v1.0.4.zip",
+  "version": "1.0.5",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.5/AutoReup_v1.0.5.zip",
   "checksum_sha256": "",
-  "changelog": "- Cap nhat khong bat buoc: nguoi dung co the chon cap nhat hoac bo qua\n- Them nut De sau trong dialog cap nhat\n- Fix exe 32-bit: rebuild 64-bit\n- Fix CDN cache khi kiem tra ban moi",
-  "release_date": "2026-03-11"
+  "changelog": "- Fix updater: ho tro giai nen zip va thay the toan bo thu muc app\n- Fix CDN cache va BOM issue\n- Cap nhat tuy chon (khong bat buoc)",
+  "release_date": "2025-07-14"
 }
