@@ -1,7 +1,8 @@
 {
-  "version": "1.0.2",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.2/AutoReup_v1.0.2.zip",
-  "checksum_sha256": "",
-  "changelog": "",
-  "release_date": ""
+  "version": "1.0.3",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.3/AutoReup_v1.0.3.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.3/AutoReup_v1.0.3_mac.zip",
+  "checksum_sha256": "21AF4D188DA1C0A0814356CFD5EEC9305838C7F474EBF150BBF6C0BB0D3576DA",
+  "changelog": "- Sửa Shorts: dùng video gốc full chất lượng, sync audio/video, giới hạn 60-110s\n- Giao diện: sắp xếp lại Tùy chọn nhanh, nút Bắt đầu/Hủy lên tab bar\n- macOS: hỗ trợ tự cập nhật đầy đủ như Windows",
+  "release_date": "2026-03-11"
 }
