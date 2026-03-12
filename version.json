@@ -1,8 +1,9 @@
 {
-  "version": "1.0.3",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.3/AutoReup_v1.0.3.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.3/AutoReup_v1.0.3_mac.zip",
-  "checksum_sha256": "21AF4D188DA1C0A0814356CFD5EEC9305838C7F474EBF150BBF6C0BB0D3576DA",
-  "changelog": "- Sửa Shorts: dùng video gốc full chất lượng, sync audio/video, giới hạn 60-110s\n- Giao diện: sắp xếp lại Tùy chọn nhanh, nút Bắt đầu/Hủy lên tab bar\n- macOS: hỗ trợ tự cập nhật đầy đủ như Windows",
-  "release_date": "2026-03-11"
+  "version": "1.0.6",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.6/AutoReup_v1.0.6_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.6/AutoReup_v1.0.6_mac.zip",
+  "checksum_sha256": "8af21d6058ad2d4801f66e9dd013053f1368fab1992cd95c49cbb5476dff816f",
+  "checksum_sha256_mac": "1832e7838fedb7d5f8aa1485ba28d5f369d7fa46c9b1506eb626cff1620e9479",
+  "changelog": "- Giao diện tự động điều chỉnh theo kích thước màn hình\n- Hỗ trợ nhập nhiều URL cùng lúc (mỗi dòng 1 URL hoặc phân tách bằng dấu phẩy)\n- Nút tải danh sách URL từ file .txt\n- Fix crash khi chạy qua shortcut .vbs (pythonw stdout redirect)\n- Pipeline hỗ trợ Resume/Retry dự án đã làm dở\n- TikTok: tối ưu convert 9:16 tích hợp trong bước ghép video (tránh encode 2 lần)\n- Downloader: format chất lượng riêng cho TikTok (video pre-merged)\n- Thêm tùy chọn chất lượng video/audio xuất ra",
+  "release_date": "2026-03-12"
 }
