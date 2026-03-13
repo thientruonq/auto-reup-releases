@@ -1,9 +1,9 @@
 {
-  "version": "1.0.7",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.7/AutoReup_v1.0.7_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.7/AutoReup_v1.0.7_mac.zip",
-  "checksum_sha256": "0f3771d81489bfcb12e728e8aac3628dea78e59f7f7fefd4a01ac92f41a8831c",
-  "checksum_sha256_mac": "cd1aff166ddaa389d6c2a4465b7cf19a525b256b962b8efb5c0bdc214134fecc",
-  "changelog": "- Fix 14 logic issues (model fallback, timecode regex, voice count, crop default...)\n- Config & API keys không bị leak khi push GitHub\n- Whisper STT tự động tải + cài đặt lần đầu sử dụng\n- Tối ưu khởi động app từ ~4s xuống ~360ms\n- Tách God class App (2314 dòng) thành 5 mixins\n- Thêm logging cho translator batch retry & update check\n- Fix crash voice combo khi danh sách rỗng",
-  "release_date": "2026-03-12"
+  "version": "1.0.8",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.8/AutoReup_v1.0.8_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.8/AutoReup_v1.0.8_mac.zip",
+  "checksum_sha256": "67e400317d29b5be01996bde2ac3e45b675656582d74c03c5b163fd037bb503a",
+  "checksum_sha256_mac": "febbbb15814c0cd6f31a4580169b0bfe39f1e6d59cc50ee596a30934f299c77d",
+  "changelog": "- Auto-save settings (bỏ nút Lưu cài đặt, tự lưu khi thay đổi)\n- Fix model name format error (dropdown value → model ID)\n- Fix Shorts đọc sai ngôn ngữ + đặt tên file shorts-slug\n- Pipeline song song: Content → CapCut + Shorts chạy đồng thời\n- Cache Whisper model (không load lại mỗi lần chạy)\n- Tối ưu dịch/viết lại: chunk 150 entries + realtime progress khi rate limit\n- GPU encoder tự động cho tất cả video render (Shorts, CapCut, Pipeline)\n- Giảm batch delay 13s → 5s, linear backoff, tăng retry lên 6 lần",
+  "release_date": "2026-03-13"
 }
