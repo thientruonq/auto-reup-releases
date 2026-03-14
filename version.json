@@ -1,9 +1,9 @@
 {
-  "version": "1.0.9",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.9/AutoReup_v1.0.9_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.9/AutoReup_v1.0.9_mac.zip",
-  "checksum_sha256": "6adffb0bdf5dff3a236e1131773fd390a923bdd2f8f2d7878054f4eefac0e586",
-  "checksum_sha256_mac": "0dde6d6f424f5c47c76a954c4d7ac9bee60cf6d248efb7d9d25d3b5ade90300a",
-  "changelog": "- Thêm Groq STT engine (Whisper Large V3, miễn phí 7200s/ngày, rất nhanh)\n- Hỗ trợ nhiều Groq API key xoay vòng tự động (Round-Robin + Cooldown)\n- Key rotation toàn hệ thống: Gemini, Translator, Rewriter, Merger, Shorts, STT\n- Tăng retry từ 6 → 15 lần cho tất cả API call\n- Dot animation ... trên log/status khi pipeline đang chạy\n- Fix 403 PERMISSION_DENIED khi STT dùng nhiều key\n- Fix TTS timing: recalculate start/end từ duration thực của audio\n- Chunk size dịch/viết lại 150 → 100, batch delay 5s → 10s để ổn định hơn",
+  "version": "1.0.10",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.10/AutoReup_v1.0.10_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.10/AutoReup_v1.0.10_mac.zip",
+  "checksum_sha256": "8cae4c5bcfba71cb123427da0b0ace58f189f5694ed03c3b0755d6b67d8dbdfe",
+  "checksum_sha256_mac": "38e4860343795d66dce441dbcc69c0206cae149b2dc5c150df8a7128bce40c6d",
+  "changelog": "- Fix lỗi cập nhật thất bại [WinError 5] Access is denied khi Windows/antivirus giữ lock file\n- Updater retry tự động 6 lần với rename strategy để bypass file lock\n- Tăng thời gian chờ sau khi app tắt từ 2s → 5s\n- Fix cả bước restore backup cũng dùng retry khi gặp PermissionError",
   "release_date": "2026-03-14"
 }
