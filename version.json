@@ -1,9 +1,9 @@
 {
-  "version": "1.0.11",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.11/AutoReup_v1.0.11_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.11/AutoReup_v1.0.11_mac.zip",
-  "checksum_sha256": "fd69d7a4dd9883944b345f2dfcd4a4b245ddc71365df6865f5b4b5f3f88aa8fd",
-  "checksum_sha256_mac": "c2999ae96b0f6f044bfed8f049f23bd980374082d4a4d15ac108cce814964f4f",
-  "changelog": "- Fix bug FFmpeg filter_complex: thêm split tránh lỗi reuse named stream (Win+Mac)\n- Thêm validate output resolution 9:16 cho TikTok/Shorts\n- Thêm cảnh báo khi audio/video duration lệch >10%\n- Blur radius nền 9:16 giờ có thể tùy chỉnh (mặc định 20)",
+  "version": "1.0.12",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.12/AutoReup_v1.0.12_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.12/AutoReup_v1.0.12_mac.zip",
+  "checksum_sha256": "b2aa4b54f357f14dfece30fd596a5f8e0fd3d9fbe3e0fae5484f9dcbac39dd52",
+  "checksum_sha256_mac": "9a3acaa5bcff92a4226ed49848692369c527edb477eab9d4a63c68e356e93b15",
+  "changelog": "- Fix bug FFmpeg filter_complex: thêm split tránh lỗi reuse named stream (Win+Mac)\n- Thêm validate output resolution 9:16 cho TikTok/Shorts\n- Thêm cảnh báo khi audio/video duration lệch >10%\n- Blur radius nền 9:16 giờ có thể tùy chỉnh (mặc định 20)\n- Fix hashtags luôn có dấu # trong nội dung tạo tự động",
   "release_date": "2026-03-15"
 }
