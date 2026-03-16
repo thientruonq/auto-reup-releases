@@ -1,9 +1,9 @@
 {
-  "version": "1.0.15",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.15/AutoReup_v1.0.15_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.15/AutoReup_v1.0.15_mac.zip",
-  "checksum_sha256": "98906e956d897935cc29907b6be5ce9d4fae57c2e2c7928c01442fd51dbaad5c",
-  "checksum_sha256_mac": "0f2e3ea74749eedca4d2c3c2920287c7287d9e13854d4459d221a61f9099017b",
-  "changelog": "- Fix yt-dlp không tìm thấy ffmpeg khi merge video+audio (thiếu ffmpeg_location)\n- Fix SSL fallback trên macOS PyInstaller\n- Fix lỗi kích hoạt license trên macOS\n- Fix cập nhật Access Denied trên Windows",
+  "version": "1.0.16",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.16/AutoReup_v1.0.16_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.16/AutoReup_v1.0.16_mac.zip",
+  "checksum_sha256": "fd207cf20e9f1e9f83b6e1f4aa168eb337982748e384632de4af9884fe237c6e",
+  "checksum_sha256_mac": "04650dc79349960baf8854d3a433559c3ee97a59170ba145d6cb79405dc1a91d",
+  "changelog": "- Thêm nền tảng Facebook Reels (9:16, burn-in subtitle, AI merge, content tối ưu)\n- Bundle FFmpeg vào app (Win+Mac) — không cần cài riêng\n- Auto-detect browser cookie cho YouTube (fix lỗi bot detection)\n- Thêm log chi tiết cho updater (debug lỗi cập nhật)\n- Fix ffmpeg_location cho yt-dlp merge video+audio",
   "release_date": "2026-03-16"
 }
