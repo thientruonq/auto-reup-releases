@@ -1,9 +1,9 @@
 {
-  "version": "1.0.14",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.14/AutoReup_v1.0.14_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.14/AutoReup_v1.0.14_mac.zip",
-  "checksum_sha256": "d9558441e301239f6525293e2a941f2422108e3512341cfd1485be417c807186",
-  "checksum_sha256_mac": "ce4b1fa7ac6b56d387d9484e492b167718f0f9b1c1ff68edb0eccd60aa704067",
-  "changelog": "- Fix SSL fallback thực sự hoạt động trên macOS (catch URLError thay vì SSLError)\n- Fix lỗi kích hoạt license trên macOS\n- Fix lỗi cập nhật 'Access is denied' trên Windows",
+  "version": "1.0.15",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.15/AutoReup_v1.0.15_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.15/AutoReup_v1.0.15_mac.zip",
+  "checksum_sha256": "98906e956d897935cc29907b6be5ce9d4fae57c2e2c7928c01442fd51dbaad5c",
+  "checksum_sha256_mac": "0f2e3ea74749eedca4d2c3c2920287c7287d9e13854d4459d221a61f9099017b",
+  "changelog": "- Fix yt-dlp không tìm thấy ffmpeg khi merge video+audio (thiếu ffmpeg_location)\n- Fix SSL fallback trên macOS PyInstaller\n- Fix lỗi kích hoạt license trên macOS\n- Fix cập nhật Access Denied trên Windows",
   "release_date": "2026-03-16"
 }
