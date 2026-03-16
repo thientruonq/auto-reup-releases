@@ -1,9 +1,9 @@
 {
-  "version": "1.0.13",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.13/AutoReup_v1.0.13_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.13/AutoReup_v1.0.13_mac.zip",
-  "checksum_sha256": "153356aee4cc323d73f5773655a6aace03d9f60b9c72f4769a92e2ca979a1ef4",
-  "checksum_sha256_mac": "7b352f18f45c0d68bd5dd82faa2b42ed1c6a8d875df4ad737cb16ea69f988f38",
-  "changelog": "- Fix lỗi cập nhật 'Access is denied' trên Windows (batch script fallback)\n- Fix lỗi app không thoát sạch khi update (os._exit thay sys.exit)\n- Fix download 404 do version.txt desync\n- Thêm SSL fallback cho PyInstaller frozen app\n- Log lỗi download chi tiết thay vì 'Kiểm tra kết nối mạng'",
+  "version": "1.0.14",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.14/AutoReup_v1.0.14_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.14/AutoReup_v1.0.14_mac.zip",
+  "checksum_sha256": "d9558441e301239f6525293e2a941f2422108e3512341cfd1485be417c807186",
+  "checksum_sha256_mac": "ce4b1fa7ac6b56d387d9484e492b167718f0f9b1c1ff68edb0eccd60aa704067",
+  "changelog": "- Fix SSL fallback thực sự hoạt động trên macOS (catch URLError thay vì SSLError)\n- Fix lỗi kích hoạt license trên macOS\n- Fix lỗi cập nhật 'Access is denied' trên Windows",
   "release_date": "2026-03-16"
 }
