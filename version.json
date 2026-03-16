@@ -1,9 +1,9 @@
 {
-  "version": "1.0.12",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.12/AutoReup_v1.0.12_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.12/AutoReup_v1.0.12_mac.zip",
-  "checksum_sha256": "b2aa4b54f357f14dfece30fd596a5f8e0fd3d9fbe3e0fae5484f9dcbac39dd52",
-  "checksum_sha256_mac": "9a3acaa5bcff92a4226ed49848692369c527edb477eab9d4a63c68e356e93b15",
-  "changelog": "- Fix bug FFmpeg filter_complex: thêm split tránh lỗi reuse named stream (Win+Mac)\n- Thêm validate output resolution 9:16 cho TikTok/Shorts\n- Thêm cảnh báo khi audio/video duration lệch >10%\n- Blur radius nền 9:16 giờ có thể tùy chỉnh (mặc định 20)\n- Fix hashtags luôn có dấu # trong nội dung tạo tự động",
-  "release_date": "2026-03-15"
+  "version": "1.0.13",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.13/AutoReup_v1.0.13_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.13/AutoReup_v1.0.13_mac.zip",
+  "checksum_sha256": "153356aee4cc323d73f5773655a6aace03d9f60b9c72f4769a92e2ca979a1ef4",
+  "checksum_sha256_mac": "7b352f18f45c0d68bd5dd82faa2b42ed1c6a8d875df4ad737cb16ea69f988f38",
+  "changelog": "- Fix lỗi cập nhật 'Access is denied' trên Windows (batch script fallback)\n- Fix lỗi app không thoát sạch khi update (os._exit thay sys.exit)\n- Fix download 404 do version.txt desync\n- Thêm SSL fallback cho PyInstaller frozen app\n- Log lỗi download chi tiết thay vì 'Kiểm tra kết nối mạng'",
+  "release_date": "2026-03-16"
 }
