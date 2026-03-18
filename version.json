@@ -1,9 +1,9 @@
 {
-  "version": "1.0.17",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.17/AutoReup_v1.0.17_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.17/AutoReup_v1.0.17_mac.zip",
-  "checksum_sha256": "07cac478061534b5c0b3b69a96b345b9ed27e69ef214fe9ee74345e32f616e3b",
-  "checksum_sha256_mac": "2cabfbf76b652eb9d31d8dafbe8e71b39e88f6023dc8f79d664c66b019d8995c",
-  "changelog": "- Fix DPAPI cookie decrypt failure trên Windows (fallback no-cookie)\n- Ưu tiên Firefox cookie trên Windows (không dùng DPAPI)\n- Thêm nền tảng Facebook Reels\n- Bundle FFmpeg vào app\n- Auto-detect browser cookie cho YouTube",
-  "release_date": "2026-03-16"
+  "version": "1.0.18",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.18/AutoReup_v1.0.18_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.18/AutoReup_v1.0.18_mac.zip",
+  "checksum_sha256": "ba74f18161394ac020172ca9e86f88992beaacb0bce24fbc06090f7cfa82894f",
+  "checksum_sha256_mac": "412903aa5722ca7623552320e2f5b3ce1b21de61a861f76fa4c8ab1064c73a23",
+  "changelog": "- Word-level subtitle timing (giống CapCut auto-sub)\n- Shorts generator viết lại: AI chọn highlight → TTS → multi-clip\n- CapCut metadata cho tất cả video output\n- Fix green artifact video 9:16\n- Fix burn subtitle không hoạt động\n- URL validation: chỉ chấp nhận http/https\n- Tăng âm lượng nghe thử\n- Log tổng thời gian pipeline",
+  "release_date": "2026-03-18"
 }
