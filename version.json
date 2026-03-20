@@ -2,8 +2,8 @@
   "version": "1.0.20",
   "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.20/AutoReup_v1.0.20_windows.zip",
   "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.20/AutoReup_v1.0.20_mac.zip",
-  "checksum_sha256": "55499a531dfb5b4de28bcb9bdab18c1f50c4d07e9ae10f422d32e9fe52bc4661",
-  "checksum_sha256_mac": "5ec71bdd9e7e92d99017ec194f09e317544feca7524a295024cb8ed55dd62e6a",
+  "checksum_sha256": "24b578fbfdbef2702dee4d6e326a9cce9f2124d35cb1be1c47daee4e12c36501",
+  "checksum_sha256_mac": "54c12376ca13305d2376e312cb6ebef1b5f39df2f15029d3e22a9952c4c9c886",
   "changelog": "- Sửa lỗi không thể cập nhật trên một số máy (SSL certificate trong PyInstaller)",
   "release_date": "2026-03-20"
 }
