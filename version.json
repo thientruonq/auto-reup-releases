@@ -1,9 +1,9 @@
 {
-  "version": "1.0.19",
-  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.19/AutoReup_v1.0.19_windows.zip",
-  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.19/AutoReup_v1.0.19_mac.zip",
-  "checksum_sha256": "119cd0e76bc5f071705258f46b255a638ce4bf3af5114f334f5975885689f7c3",
-  "checksum_sha256_mac": "1ff7fea1b77ab5c5bba3f42ed559b2a4f46c22aa72ead1fc46aebfc1f5ae85e3",
-  "changelog": "- AI tự phát hiện style video (animation/real-person) và inject vào prompt tạo ảnh thumbnail cho đồng nhất\n- Hook intro: cải thiện phong cách visual",
+  "version": "1.0.20",
+  "download_url": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.20/AutoReup_v1.0.20_windows.zip",
+  "download_url_mac": "https://github.com/thientruonq/auto-reup-releases/releases/download/v1.0.20/AutoReup_v1.0.20_mac.zip",
+  "checksum_sha256": "55499a531dfb5b4de28bcb9bdab18c1f50c4d07e9ae10f422d32e9fe52bc4661",
+  "checksum_sha256_mac": "5ec71bdd9e7e92d99017ec194f09e317544feca7524a295024cb8ed55dd62e6a",
+  "changelog": "- Sửa lỗi không thể cập nhật trên một số máy (SSL certificate trong PyInstaller)",
   "release_date": "2026-03-20"
 }
